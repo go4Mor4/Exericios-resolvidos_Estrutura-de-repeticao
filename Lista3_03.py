@@ -1,3 +1,5 @@
+#Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
+
 nome = input("Digite o seu nome: ")
 while len(nome) <= 3:
     nome = input("Digite o seu nome[MAIOR QUE 3 CARACTERES]: ")

@@ -1,3 +1,5 @@
+#Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
+
 n1 = int(input("\nDigite o número: "))
 n2 = int(input("Digite o número: "))
 n3 = int(input("Digite o número: "))

@@ -9,8 +9,8 @@ while quant != count:
 
     while numero > 1000 or numero < 0:
         numero = float(input("Digite um número[erro]: "))
-    else:
-        lista.append(numero)
+        
+    lista.append(numero)
     count += 1
 
 print("Lista: ", lista, "\nMaior: ", max(lista), "\nMenor: ", min(lista))

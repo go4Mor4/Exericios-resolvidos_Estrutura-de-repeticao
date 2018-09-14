@@ -4,4 +4,6 @@ codigo = True
 while codigo != 0:
     codigo = int(input("Digite o código do alimento: "))
     if codigo in menu:
-        
+        quantidade = int(input("Digite a quantidade que irá querer do alimento")
+    else:
+        print("Esse código não pertence a nenhum alimento.")
